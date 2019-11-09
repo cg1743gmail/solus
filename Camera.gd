@@ -85,10 +85,9 @@ func _input(event):
 			_direction.y = 0
 
 func _process(delta):
+	look_at(get_parent().get_node('Black Hole').translation, Vector3(0, 1, 0))
 	if privot:
 		_update_distance()
-	if mouselook:
-		_update_mouselook()
 	if movement:
 		_update_movement(delta)
 

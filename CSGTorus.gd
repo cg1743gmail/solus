@@ -9,5 +9,5 @@ func _ready():
 	inner_radius = get_parent().radius + 0.01
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	rotate_y(-0.3 * delta)
+#func _process(delta):
+#	rotate_y(-0.3 * delta)
